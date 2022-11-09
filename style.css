@@ -83,17 +83,26 @@ footer {
 
 .container-footer-left {
     display: flex;
+    width:50vw;
 }
+
 
 .nav-bottom {
     display: flex;
-    width: 30vw;
+    width: 50vw;
+    flex-direction: row;
+    text-decoration: none;
+    
 }
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
     width: 100%;
+    list-style: none;
+    gap:2em;
+    justify-content: flex-end;
+    padding-right:10vw;
+
 }
 
 .li-menu-bottom:hover {
